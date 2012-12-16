@@ -2,3 +2,13 @@
 *.sdf
 *.suo
 *.ipch
+*.lib
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.tlog
+*.lastbuildstate
+*.log
+*.pch
+*.idb
