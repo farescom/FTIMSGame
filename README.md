@@ -1,5 +1,5 @@
 FTIMSGame
 =========
 
-Moduly:
--
+Zespoly:
+- architekci: undeadkaef@gmail.com
