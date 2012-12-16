@@ -66,9 +66,6 @@
     <ClCompile Include="Objects\Consumable.cpp">
       <Filter>Source Files\Objects</Filter>
     </ClCompile>
-    <ClCompile Include="Objects\Engine.cpp">
-      <Filter>Source Files\Objects</Filter>
-    </ClCompile>
     <ClCompile Include="Objects\GameObject.cpp">
       <Filter>Source Files\Objects</Filter>
     </ClCompile>
@@ -173,9 +170,6 @@
     <ClInclude Include="Objects\Consumable.h">
       <Filter>Header Files\Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Objects\Engine.h">
-      <Filter>Header Files\Objects</Filter>
-    </ClInclude>
     <ClInclude Include="Objects\GameObject.h">
       <Filter>Header Files\Objects</Filter>
     </ClInclude>
@@ -250,6 +244,9 @@
     </ClInclude>
     <ClInclude Include="Parser\Syntax.h">
       <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHeader.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

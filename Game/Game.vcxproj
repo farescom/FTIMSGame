@@ -100,7 +100,6 @@
     <ClCompile Include="MenuState.cpp" />
     <ClCompile Include="Objects\Collisions.cpp" />
     <ClCompile Include="Objects\Consumable.cpp" />
-    <ClCompile Include="Objects\Engine.cpp" />
     <ClCompile Include="Objects\GameObject.cpp" />
     <ClCompile Include="Objects\mainObj.cpp" />
     <ClCompile Include="Objects\Map.cpp" />
@@ -135,6 +134,7 @@
     <ClInclude Include="File\stdafx.h" />
     <ClInclude Include="File\targetver.h" />
     <ClInclude Include="File\UserFile.h" />
+    <ClInclude Include="GameHeader.h" />
     <ClInclude Include="GUI\Button.h" />
     <ClInclude Include="GUI\HUD.h" />
     <ClInclude Include="GUI\Label.h" />
@@ -142,7 +142,6 @@
     <ClInclude Include="MenuState.h" />
     <ClInclude Include="Objects\Collisions.h" />
     <ClInclude Include="Objects\Consumable.h" />
-    <ClInclude Include="Objects\Engine.h" />
     <ClInclude Include="Objects\GameObject.h" />
     <ClInclude Include="Objects\Map.h" />
     <ClInclude Include="Objects\Obj.h" />
