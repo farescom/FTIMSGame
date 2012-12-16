@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\File">
+      <UniqueIdentifier>{e05d6968-9dcb-437c-8135-cf23e15a3a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File">
+      <UniqueIdentifier>{dea529bd-cee9-4c5b-bee2-ff7a41a8b82d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,13 +27,117 @@
     <ClCompile Include="MenuState.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\File\stdafx.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\UserFile.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\Aggregate.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\AudioFile.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\Database.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\Encoder2.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\EncryptionAlgorithm.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\File2.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\file.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\HighScores.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\MapFile.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\News.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\ObjectFile.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\Score.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\File\ScriptFile.cpp">
+      <Filter>Source Files\File</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="gameHeader.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\File\stdafx.h">
+      <Filter>Header Files\File</Filter>
     </ClInclude>
+    <ClInclude Include="..\File\targetver.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\UserFile.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\Aggregate.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\AudioFile.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\Database.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\Encoder2.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\EncryptionAlgorithm.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\File2.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\HighScores.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\MapFile.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\News.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\ObjectFile.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\Score.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\File\ScriptFile.h">
+      <Filter>Header Files\File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\File\resources\users.ftg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\File\resources\Kuba.ftg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\File\resources\player65.ftg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\File\resources\player2255.ftg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\File\resources\plik.ftg">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -77,6 +77,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\File\Aggregate.cpp" />
+    <ClCompile Include="..\File\AudioFile.cpp" />
+    <ClCompile Include="..\File\Database.cpp" />
+    <ClCompile Include="..\File\Encoder2.cpp" />
+    <ClCompile Include="..\File\EncryptionAlgorithm.cpp" />
+    <ClCompile Include="..\File\file.cpp" />
+    <ClCompile Include="..\File\File2.cpp" />
+    <ClCompile Include="..\File\HighScores.cpp" />
+    <ClCompile Include="..\File\MapFile.cpp" />
+    <ClCompile Include="..\File\News.cpp" />
+    <ClCompile Include="..\File\ObjectFile.cpp" />
+    <ClCompile Include="..\File\Score.cpp" />
+    <ClCompile Include="..\File\ScriptFile.cpp" />
+    <ClCompile Include="..\File\stdafx.cpp" />
+    <ClCompile Include="..\File\UserFile.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuState.cpp" />
   </ItemGroup>
@@ -86,8 +101,29 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="gameHeader.h" />
+    <ClInclude Include="..\File\Aggregate.h" />
+    <ClInclude Include="..\File\AudioFile.h" />
+    <ClInclude Include="..\File\Database.h" />
+    <ClInclude Include="..\File\Encoder2.h" />
+    <ClInclude Include="..\File\EncryptionAlgorithm.h" />
+    <ClInclude Include="..\File\File2.h" />
+    <ClInclude Include="..\File\HighScores.h" />
+    <ClInclude Include="..\File\MapFile.h" />
+    <ClInclude Include="..\File\News.h" />
+    <ClInclude Include="..\File\ObjectFile.h" />
+    <ClInclude Include="..\File\Score.h" />
+    <ClInclude Include="..\File\ScriptFile.h" />
+    <ClInclude Include="..\File\stdafx.h" />
+    <ClInclude Include="..\File\targetver.h" />
+    <ClInclude Include="..\File\UserFile.h" />
     <ClInclude Include="MenuState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\File\resources\Kuba.ftg" />
+    <None Include="..\File\resources\player2255.ftg" />
+    <None Include="..\File\resources\player65.ftg" />
+    <None Include="..\File\resources\plik.ftg" />
+    <None Include="..\File\resources\users.ftg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,3 +12,4 @@
 *.log
 *.pch
 *.idb
+*.cache
