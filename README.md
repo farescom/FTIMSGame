@@ -2,4 +2,4 @@ FTIMSGame
 =========
 
 Zespoly:
-- architekci: undeadkaef@gmail.com
+- architekci: undeadkaef [ma³pa] gmail.com
