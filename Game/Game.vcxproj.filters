@@ -31,6 +31,12 @@
     <Filter Include="Source Files\GUI">
       <UniqueIdentifier>{bf75bfbc-a003-4b8b-8865-bce977bd968c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Parser">
+      <UniqueIdentifier>{7a03a6d7-44e2-4d5f-89f2-7ad60d51b29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Parser">
+      <UniqueIdentifier>{f87f8a9e-680c-4f03-b080-6ff4bebb72ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -135,6 +141,12 @@
     <ClCompile Include="GUI\Label.cpp">
       <Filter>Source Files\GUI</Filter>
     </ClCompile>
+    <ClCompile Include="Parser\Script.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser\Syntax.cpp">
+      <Filter>Source Files\Parser</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MenuState.h">
@@ -232,6 +244,12 @@
     </ClInclude>
     <ClInclude Include="GUI\Label.h">
       <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\Script.h">
+      <Filter>Header Files\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser\Syntax.h">
+      <Filter>Header Files\Parser</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

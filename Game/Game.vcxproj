@@ -111,6 +111,8 @@
     <ClCompile Include="Objects\Script.cpp" />
     <ClCompile Include="Objects\Solid.cpp" />
     <ClCompile Include="Objects\Throwable.cpp" />
+    <ClCompile Include="Parser\Script.cpp" />
+    <ClCompile Include="Parser\Syntax.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Engine\Engine.vcxproj">
@@ -150,6 +152,8 @@
     <ClInclude Include="Objects\Script.h" />
     <ClInclude Include="Objects\Solid.h" />
     <ClInclude Include="Objects\Throwable.h" />
+    <ClInclude Include="Parser\Script.h" />
+    <ClInclude Include="Parser\Syntax.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\File\resources\Kuba.ftg" />
