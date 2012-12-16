@@ -1,11 +1,11 @@
-﻿Build started 2012-12-16 16:45:15.
-     1>Project "C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\kody od projektantów\silnik\Engine\Engine.vcxproj" on node 2 (build target(s)).
+﻿Build started 12/16/2012 8:04:50 PM.
+     1>Project "C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\Test\Engine\Engine.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Engine.h" /Fp"Debug\Engine.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Game\CTimer.cpp Camera.cpp Draw.cpp StateManager.cpp TextFont.cpp Texture.cpp Engine.cpp Input.cpp
          Input.cpp
-         c:\documents and settings\kaef\moje dokumenty\ftimsgame\kody od projektantów\silnik\engine\input.cpp: Poprawić Press / Release
+         c:\documents and settings\kaef\moje dokumenty\ftimsgame\test\engine\input.cpp: Poprawić Press / Release
          Engine.cpp
          Texture.cpp
          TextFont.cpp
@@ -14,7 +14,7 @@
          Camera.cpp
          CTimer.cpp
        Lib:
-         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\kody od projektantów\silnik\Debug\Engine.lib" /NOLOGO Debug\CTimer.obj
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\Test\Debug\Engine.lib" /NOLOGO Debug\CTimer.obj
          Debug\Camera.obj
          Debug\Draw.obj
          Debug\StateManager.obj
@@ -22,12 +22,12 @@
          Debug\Texture.obj
          Debug\Engine.obj
          Debug\Input.obj
-         Engine.vcxproj -> C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\kody od projektantów\silnik\Debug\Engine.lib
+         Engine.vcxproj -> C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\Test\Debug\Engine.lib
        FinalizeBuildStatus:
          Deleting file "Debug\Engine.unsuccessfulbuild".
          Touching "Debug\Engine.lastbuildstate".
-     1>Done Building Project "C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\kody od projektantów\silnik\Engine\Engine.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Documents and Settings\Kaef\Moje dokumenty\FTIMSGame\Test\Engine\Engine.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:12.03
+Time Elapsed 00:00:11.39
